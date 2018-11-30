@@ -1,0 +1,68 @@
+import {StyleSheet} from 'react-native'
+import {width,height} from '../config/DeviceDimension'
+export default DetailCategoryStyle=StyleSheet.create({
+    container:{
+        backgroundColor:'#FFFF89',  
+    },
+    tagsStyle:{
+        marginLeft:4,
+        width:width/10,
+        backgroundColor:"#707070",
+        height:height/30,
+        justifyContent:'center',
+        alignItems: 'center',
+        borderRadius:4
+    },
+    commentInputStyle:{
+        margin:height/60,
+        padding:10,
+        height:height/8,
+        backgroundColor:"#fff",
+        borderWidth:1,
+        borderColor:"#1E0D65"
+    },
+    commentSendStyle:{
+            backgroundColor:'#1E0D65',
+            width:width/8,
+            marginLeft:10,
+            justifyContent:'center',
+            alignItems: 'center',
+            borderRadius:4  
+    },
+    logoStyle:{
+        width:width,
+        height:height/3
+    },
+    rightIconsStyle:{
+        margin:12,
+        width:width/13.5,
+        height:height/23.5
+    },
+    lineStyle:{
+        borderWidth:1,
+        borderColor:'#000000',
+        marginTop:10,
+        marginBottom:height/35
+    },
+    textConatinerStyle:{
+        width:width/1.1,
+        margin:10,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    socialLogoStyle:{
+        borderColor:'#000',
+        borderWidth:1,
+        height:height/15,
+        width:width/1.1
+    },
+    commentStyle:{
+        justifyContent:'center',
+        alignItems:'center',
+        borderWidth:2,
+        borderColor:'#000',
+        borderRadius:12,
+        width:width/1.4,
+        height:height/18
+        }
+})
